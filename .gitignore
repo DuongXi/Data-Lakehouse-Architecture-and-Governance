@@ -1,0 +1,9 @@
+venv
+__pycache__
+*.parquet
+*.json
+logs
+gold_data
+airflow.*
+key_aws.py
+.env
