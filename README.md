@@ -8,6 +8,8 @@ The architecture follows a medallion-style Bronze → Silver → Gold flow with:
 - Silver: cleaned Silver tables written as Iceberg managed tables
 - Gold: dimension and fact tables in a star schema for analytics
 
+More detail at: [Report.pdf](https://github.com/DuongXi/Data-Lakehouse-Architecture-and-Governance/blob/main/Report.pdf)
+
 ## Repository Structure
 - `dags/`
   - `dag_raw2bronze.py`: raw CSV to Bronze parquet conversion.
